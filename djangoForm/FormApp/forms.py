@@ -1,5 +1,6 @@
 from django import forms
 
+#django form
 class StudentForm(forms.Form):
     name = forms.CharField(max_length=100, label="Your Name", widget=forms.TextInput(attrs={
         "placeholder": "Your Full Name",
